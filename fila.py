@@ -1,6 +1,8 @@
 class fila:
     def __init__(self):
 
+        #adiconar usuario
+
         a=5
         usuario=[]
         while a>0:
@@ -14,7 +16,7 @@ class fila:
 
         
         
-        
+        #retirar da fila
         while True:
             print("digite 1 para deletar um elemento e 0 para sair")
             opcao = input()
