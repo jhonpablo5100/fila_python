@@ -1,9 +1,10 @@
 class fila:
     def __init__(self):
-
-        #adiconar usuario
+ 
         a=5
         usuario=[]
+        
+        #adicionar usuario
         while a>0:
             print("nome de usuario")
             nome = input();
@@ -13,7 +14,6 @@ class fila:
         for ver_user in usuario:
             print("Usuario: "+ver_user)
 
-        
         
         #modificar lista
         while True:
